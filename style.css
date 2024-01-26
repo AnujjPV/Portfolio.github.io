@@ -2716,11 +2716,12 @@ form textarea {
       position: relative;
       display: block;
       font-size: 15px;
-      padding: 10px 300px;
+      padding: 10px 20px;
       color: #070707;
       background-color: #9b9b9e;
       overflow: hidden;
       box-shadow: inset 0px 0px 0px 1px transparent;
+      margin-top: -5px;
   }
 
   .follow .buttonSet {
