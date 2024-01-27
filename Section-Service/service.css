@@ -301,18 +301,17 @@ nav .fas {
     height: 100%;
     width: 100%;
     place-items: center;
-    margin-top: 40px;
     margin-bottom: 100px;
-
-
-}
-
-.wrappeer {
+  
+  
+  }
+  
+  .wrappeer {
     display: inline-flex;
-}
-
-.wrappeer .icon {
-
+  }
+  
+  .wrappeer .icon {
+  
     margin: 0 20px;
     display: flex;
     align-items: center;
@@ -322,9 +321,9 @@ nav .fas {
     z-index: 3;
     cursor: pointer;
     color: #000;
-}
-
-.wrappeer .icon span {
+  }
+  
+  .wrappeer .icon span {
     position: relative;
     height: 60px;
     width: 60px;
@@ -338,20 +337,20 @@ nav .fas {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-
+  
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-.wrappeer .icon:hover span i {
+  }
+  
+  .wrappeer .icon:hover span i {
     color: #fff;
-}
-
-.wrappeer .icon span i {
+  }
+  
+  .wrappeer .icon span i {
     font-size: 25px;
     line-height: 60px;
-}
-
-.wrappeer .icon .tooltip {
+  }
+  
+  .wrappeer .icon .tooltip {
     position: absolute;
     top: 0px;
     background: #000000;
@@ -370,17 +369,17 @@ nav .fas {
     -moz-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
     -ms-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
     -o-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
-}
-
-.wrappeer .icon:hover .tooltip {
-
+  }
+  
+  .wrappeer .icon:hover .tooltip {
+  
     top: -70px;
     opacity: 1;
     pointer-events: auto;
-}
-
-.wrappeer .icon .tooltip::before {
-
+  }
+  
+  .wrappeer .icon .tooltip::before {
+  
     position: absolute;
     content: "";
     height: 15px;
@@ -389,65 +388,64 @@ nav .fas {
     bottom: -8px;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
-
-}
-
-
-.wrappeer .icon:hover span,
-.wrappeer .icon:hover .tooltip {
-
+  
+  }
+  
+  
+  .wrappeer .icon:hover span,
+  .wrappeer .icon:hover .tooltip {
+  
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
-}
-
-.wrappeer .facebook:hover span,
-.wrappeer .facebook:hover .tooltip,
-.wrappeer .facebook:hover .tooltip::before {
-
+  }
+  
+  .wrappeer .facebook:hover span,
+  .wrappeer .facebook:hover .tooltip,
+  .wrappeer .facebook:hover .tooltip::before {
+  
     background: #3b5999;
     color: #ffffff;
-}
-
-.wrappeer .instagram:hover span,
-.wrappeer .instagram:hover .tooltip,
-.wrappeer .instagram:hover .tooltip::before {
-
+  }
+  
+  .wrappeer .instagram:hover span,
+  .wrappeer .instagram:hover .tooltip,
+  .wrappeer .instagram:hover .tooltip::before {
+  
     background: #e1306c;
     color: #ffffff;
-}
-
-.wrappeer .twitter:hover span,
-.wrappeer .twitter:hover .tooltip,
-.wrappeer .twitter:hover .tooltip::before {
-
+  }
+  
+  .wrappeer .twitter:hover span,
+  .wrappeer .twitter:hover .tooltip,
+  .wrappeer .twitter:hover .tooltip::before {
+  
     background: #46c1f6;
     color: #ffffff;
-}
-
-.wrappeer .github:hover span,
-.wrappeer .github:hover .tooltip,
-.wrappeer .github:hover .tooltip::before {
-
+  }
+  
+  .wrappeer .github:hover span,
+  .wrappeer .github:hover .tooltip,
+  .wrappeer .github:hover .tooltip::before {
+  
     background: #333;
     color: #ffffff;
-}
-
-.wrappeer .linkedin:hover span,
-.wrappeer .linkedin:hover .tooltip,
-.wrappeer .linkedin:hover .tooltip::before {
-
+  }
+  
+  .wrappeer .linkedin:hover span,
+  .wrappeer .linkedin:hover .tooltip,
+  .wrappeer .linkedin:hover .tooltip::before {
+  
     background: #1b4fbe;
     color: #ffffff;
-}
-
-
-.wrappeer .youtube:hover span,
-.wrappeer .youtube:hover .tooltip,
-.wrappeer .youtube:hover .tooltip::before {
-
+  }
+  
+  
+  .wrappeer .youtube:hover span,
+  .wrappeer .youtube:hover .tooltip,
+  .wrappeer .youtube:hover .tooltip::before {
+  
     background: #b91616;
     color: #ffffff;
-}
-
+  }
 .cv {
 
     margin-top: 30px;
